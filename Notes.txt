@@ -1,0 +1,21 @@
+////////////////////////////////////////////////////////////////////////////////////////////////
+Section 2: V8: The Javascript Engine
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+- Levels of programmig language
+1. Machine Language
+2. Assembly Language
+3. C/C++
+4. JavaScript
+
+- Node is written in C++
+- V8 is written in C++
+
+- ECMAScript - standart Javascript is based on
+- JavaScript - language
+
+- JavaScript engine - program taht converts JS code into something the computer precessor can understand.
+
+- V8 is Google's open source JavaSript engine. Written in C++. Implements ECMAScript as specified. I was create d to execute in Chrome browser
+
+- JavaScript Code -> V8 engine(converts/interprete/compile) -> Machine Code
