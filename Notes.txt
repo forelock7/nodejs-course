@@ -120,3 +120,15 @@ var person = {
 person.greet();
 person["firstname"];
 
+- Inheritance implemented by Prototype chain via proto property
+prototype - function
+__proto__ - property
+function Person(firstname, lastname) {
+  this.firstname = firstname;
+  this.lastname = lastname;
+}
+Person.prototype.greet = function () {
+  console.log('Hello, ' + this.firstname + ' ' + this.lastname);
+};
+var john = new Person('John', 'Doe');
+console.log(john.__proto__);
