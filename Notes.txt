@@ -91,3 +91,32 @@ console.log("Hello Tony");
   module
   require
   this
+
+- Name/Value pair - a name which maps to a value. The name may be defines more than once, but only can have one value in any given context. That value may be more name/value pairs.
+Address = 'Main Street'
+
+- Object - collection of name/value pairs
++ Primitive(property)
++ Object(property)
++ Function(method)
+
+- Object literal - name/vale pairs separated by commas and surrounded by curly braces. This is just a quick, shorthand way to create JS object in code
+{
+  Street: 'Main',
+  Number: 100,
+  App: {
+    num: 4,
+  }
+}
+
+- Get propertis from object
+var person = {
+  firstname: "John",
+  lastname: "Doe",
+  greet: function () {
+    console.log("Hello, " + this.firstname + " " + this.lastname);
+  },
+};
+person.greet();
+person["firstname"];
+
