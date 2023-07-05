@@ -19,3 +19,12 @@ Section 2: V8: The Javascript Engine
 - V8 is Google's open source JavaSript engine. Written in C++. Implements ECMAScript as specified. I was create d to execute in Chrome browser
 
 - JavaScript Code -> V8 engine(converts/interprete/compile) -> Machine Code
+
+////////////////////////////////////////////////////////////////////////////////////////////////
+Section 3: The Node Core
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+- Client(Browser - JS) <--HTTP--> Server(WebServer - Js)
+
+- Run NodeJS file:
+node app.js
