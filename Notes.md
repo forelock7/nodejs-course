@@ -70,3 +70,24 @@ Section 4: Modules, Exports, and Require
 logGreeting(function () {
 console.log("Hello Tony");
 });
+
+- Use module in another JS script file
+  require("./greet.js");
+
+- Not only execute all in module, but also get/invoke particular func
+- Module (greet.js)
+  var greet = function () {
+  console.log("Hello!");
+  };
+  module.exports = greet;
+- JS file (app.js)
+  var greet = require("./greet");
+  greet();
+
+- Local variables for each JS script file
+  **dirname
+  **filename
+  exports
+  module
+  require
+  this
