@@ -137,3 +137,9 @@ console.log(john.__proto__);
 
 - Primitive - pass by value
 - Objects - pass by reference
+
+-  Scope - where in code you have access to particular var of function
+
+- immediately invoked function expression
+(function() {
+}())
