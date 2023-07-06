@@ -214,3 +214,7 @@ module.exports = {
 -----
 var greet5 = require('./greet5').greet;
 greet5();
+
+- In JS if variable set equal to value - new object created
+
+- Mutate - to change something
