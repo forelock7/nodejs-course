@@ -143,3 +143,14 @@ console.log(john.__proto__);
 - immediately invoked function expression
 (function() {
 }())
+
+- if we use require, it actually take all code from that module and wrapped it into an immediately invoked function expression
+var greet = require('./greet');
+greet();
+- IIFE:
+(function (exports, require, module, __filename, __dirname) {
+  var greet = function() {
+	console.log('Hello!');
+};
+module.exports = greet;
+});
