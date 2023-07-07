@@ -231,3 +231,4 @@ obj['greet'];
 
 - Event Listener - code that responds to Event
 
+- magic string - string that has some special meaning in our code. This is bad because it makes it easy for a typo to cause a bug, and hard tools to help us find it.
