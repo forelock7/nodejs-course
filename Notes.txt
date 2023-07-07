@@ -228,3 +228,6 @@ obj.greet;
 obj['greet'];
 
 - You can put function as item to array
+
+- Event Listener - code that responds to Event
+
