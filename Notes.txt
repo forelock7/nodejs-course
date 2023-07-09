@@ -245,4 +245,16 @@ var john = Object.create(person);
 
 - babeljs.io - convert new syntex (ES6) to old versions (NodeJS, ES5) for old versions of browsers
 
-- Template Literal - a way to concatenate strings in JS (ES6). Easier to work with than a bunch of strings concatenated with '+'
+- Template Literal - a way to concatenate strings in JS (ES6). Easier to work with than a bunch of strings concatenated with '+'. It used backticks:
+`Hallo ${name}` 
+
+- call methods within differetn oblects:
+var obj = {
+  name: 'John Doe',
+  greet: function () {
+    console.log(`Hello ${this.name}`);
+  },
+};
+obj.greet();
+obj.greet.call({ name: 'Jane Doe' }, param, param2);
+obj.greet.apply({ name: 'Jane Amm Doe' }, [param, param2]);
