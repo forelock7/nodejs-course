@@ -242,3 +242,7 @@ var person = {
   },
 };
 var john = Object.create(person);
+
+- babeljs.io - convert new syntex (ES6) to old versions (NodeJS, ES5) for old versions of browsers
+
+- Template Literal - a way to concatenate strings in JS (ES6). Easier to work with than a bunch of strings concatenated with '+'
