@@ -258,3 +258,22 @@ var obj = {
 obj.greet();
 obj.greet.call({ name: 'Jane Doe' }, param, param2);
 obj.greet.apply({ name: 'Jane Amm Doe' }, [param, param2]);
+
+- Classes - feature of ES6
+
+- Syntactic sugar - a feature that only changes how you type something, but nothing changes under the hood
+
+- Inheritance (Nodejs, ES5):
+function Page() {
+  BasePage.call(this);
+  this.headerLocator = '/h'
+}
+util.inherits(Page, BasePage)
+
+- Inheritance (ES6):
+class Page extends BasePage{
+  constructor() {
+    super()
+    this.headerLocator = '/div'
+  }
+}
