@@ -17,7 +17,7 @@ Section 2: V8: The Javascript Engine
 
 - JavaScript engine - program taht converts JS code into something the computer precessor can understand.
 
-- V8 is Google's open source JavaSript engine. Written in C++. Implements ECMAScript as specified. I was create d to execute in Chrome browser
+- V8 is Google's open source JavaSript engine. Written in C++. Implements ECMAScript as specified. It was created to execute in Chrome browser
 
 - JavaScript Code -> V8 engine(converts/interprete/compile) -> Machine Code
 
@@ -277,3 +277,40 @@ class Page extends BasePage{
     this.headerLocator = '/div'
   }
 }
+
+////////////////////////////////////////////////////////////////////////////////////////////////
+Section 6: Asynchronous Code, libuv, The Event Loop, Streams, Files, and more…
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+- Asynchronous - more than one process running simultaneously
+- Synchronous - one process executing at a time
+
+- JavaScript is synchronous/ Only one line of code executing at a time
+- NodeJS is asynchronous. Node does things asynchronous. V8 does not.
+
+- Callback - function passed to some other function, which we assume will be invoke at some point. 
+function(someOtherFunc) {
+  someOtherFunc();
+}
+
+- System Events - C++ Core (libuv)
+- Custom Events = JavaScript Core (Event Emitter)
+
+- Non-Blocking - doing other things without stopping your programming from running. This is made possible by Node's doing things asynchronously.
+
+- Buffer - a temporary holding spot for data being moved from one place to another. Intentionally limited in size.
+
+- Stream - a sequence of data made available over time. Pieces of data that eventually combine into a whole.
+
+- Buffer is used within a stream for some processes.
+
+-  Binary data - data stored in binary (sets of 1s and 0s). The core of the math that computers are based on. Each one or zero is called a 'bit' or 'binary digit'. Based 2(binary)
+0101
+
+- Character Set - a representation of characters as numbers. Each character gets a number. Unicode and ASCII are character sets.
+hello -> 104 101 108 108 111 (by Unicode Character Set)
+
+- Character Encoding - how characters are stored in binery. The numbers (or code points) are converted and stored in binary.
+hello -> 104 101 108 108 111 (by Unicode Character Set) -> 01101000 01100101c01101100 01101100 01101111c (UTF-8 Character Encoding)
+
+- 
