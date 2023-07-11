@@ -355,3 +355,5 @@ Section 7: HTTP and being a Web Server
 - HTTP - a set of rules (and a format) for data being transferred on the Web. This format data is send by TCP/IP.
 
 - MIME type - a standart for specifying the type of data being sent. Stands for 'Mutipurpose Internet Mail Extensions': application/json, text/html, image/jpeg
+
+- http-parser - C++ lib parse information for http requests/responces
