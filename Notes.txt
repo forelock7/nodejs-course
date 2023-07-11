@@ -351,3 +351,7 @@ Section 7: HTTP and being a Web Server
 - Port - once a computer receives a Packet, how it knows what program to send it to. When a program is setup on the OS to receive packets from a particular port, it is said that the program is 'listening' to that port.
 
 - Socket address: 32.32.43.32:443
+
+- HTTP - a set of rules (and a format) for data being transferred on the Web. This format data is send by TCP/IP.
+
+- MIME type - a standart for specifying the type of data being sent. Stands for 'Mutipurpose Internet Mail Extensions': application/json, text/html, image/jpeg
