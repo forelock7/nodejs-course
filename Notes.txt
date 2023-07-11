@@ -371,3 +371,6 @@ var obj = {
     };
 res.end(JSON.stringify(obj));
 - Deserialize - opposite (converting the format back into ---> an object)
+
+- Routing - mapping HTTP requests to content. Whether actual files that exist on the server, or not
+
