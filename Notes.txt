@@ -330,4 +330,7 @@ var greet2 = fs.readFile(
 
 - Abstract class - a type of constructor you never work directly with, but inherit from
 
-- 
+- Pipe - connecting two streams by writing to one stream what is being read from another. In Node you pipe from a Readable stream to a Writable stream.
+
+- Method Chaining - a method returns an object so we can keep calling more methods. Sometimes it returns the parent object (called 'cascading') and sometimes some other object
+readable.pipe(gzip).pipe(compressed);
