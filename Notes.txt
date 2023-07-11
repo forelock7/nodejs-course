@@ -364,3 +364,10 @@ Section 7: HTTP and being a Web Server
 
 - Endpoint - one particular URL in a Web API. Sometimes that endpoint (URL) does multiple thing by making choices based on the HTTP request headers.
 
+- Serialize - translate an object into a format that can be stored or transferred. into ---> JSON, CSV, XML and others are popular. 
+var obj = {
+      firstname: 'John',
+      lastname: 'Doe',
+    };
+res.end(JSON.stringify(obj));
+- Deserialize - opposite (converting the format back into ---> an object)
