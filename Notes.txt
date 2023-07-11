@@ -334,3 +334,20 @@ var greet2 = fs.readFile(
 
 - Method Chaining - a method returns an object so we can keep calling more methods. Sometimes it returns the parent object (called 'cascading') and sometimes some other object
 readable.pipe(gzip).pipe(compressed);
+
+- Use streams and pipes in NodeJS
+
+////////////////////////////////////////////////////////////////////////////////////////////////
+Section 7: HTTP and being a Web Server
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+- Protocol - set of rules two sides agree on to use when connunicating. 
+
+- Socket creates channel between Browser and Web Server to deliver data
+- HTTP, FTP protocol in WHICH format to deliver data
+- IP protocol helps identify (FRPM WHAT and WHERE) both client and Server
+- TCP is actually use HOW to deliver data splitting it into pieces (Packet)
+
+- Port - once a computer receives a Packet, how it knows what program to send it to. When a program is setup on the OS to receive packets from a particular port, it is said that the program is 'listening' to that port.
+
+- Socket address: 32.32.43.32:443
