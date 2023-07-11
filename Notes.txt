@@ -359,3 +359,8 @@ Section 7: HTTP and being a Web Server
 - http-parser - C++ lib parse information for http requests/responces
 
 - Template - text designed to be the basic for final text or content after being processed. There is usually some specific template language? so the template system knows how to replace placeholders with real values.
+
+- API - a set oof tools for building a software application. On the web the tools are usually made available via a set of URLs which accept and send only data via HTTP and TCP/IP
+
+- Endpoint - one particular URL in a Web API. Sometimes that endpoint (URL) does multiple thing by making choices based on the HTTP request headers.
+
