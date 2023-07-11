@@ -325,3 +325,9 @@ var greet2 = fs.readFile(
     console.log(data);
   }
 );
+
+- Chunk - a peace of data being sent through a stream. Data is split in 'chunks' and streamed.
+
+- Abstract class - a type of constructor you never work directly with, but inherit from
+
+- 
