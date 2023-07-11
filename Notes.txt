@@ -357,3 +357,5 @@ Section 7: HTTP and being a Web Server
 - MIME type - a standart for specifying the type of data being sent. Stands for 'Mutipurpose Internet Mail Extensions': application/json, text/html, image/jpeg
 
 - http-parser - C++ lib parse information for http requests/responces
+
+- Template - text designed to be the basic for final text or content after being processed. There is usually some specific template language? so the template system knows how to replace placeholders with real values.
