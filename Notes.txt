@@ -428,3 +428,12 @@ nodemon app.js
 
 - Update all modules regarding '^' and '~' rules:
 npm update
+
+////////////////////////////////////////////////////////////////////////////////////////////////
+Section 9: Express
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+- Environment variables - global vars specific to the env (server) our code is living in. Different servers can have different variable settings, and we can access thos in code
+
+- HTTP Method - specifies the type of action the request wishes to make. GET, POST? DELETE? and others. Also called verbs
+
