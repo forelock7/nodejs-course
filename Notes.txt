@@ -437,3 +437,6 @@ Section 9: Express
 
 - HTTP Method - specifies the type of action the request wishes to make. GET, POST? DELETE? and others. Also called verbs
 
+- Middleware - code that sits between two layers of software. In the case of Express, sitting between the request and the response. It's used for cookies, password ets.
+
+- Static - not dynemic. In other words, not processed by code in any way. For example HTML, CSS and image filesare 'static' files
