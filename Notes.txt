@@ -374,3 +374,57 @@ res.end(JSON.stringify(obj));
 
 - Routing - mapping HTTP requests to content. Whether actual files that exist on the server, or not
 
+////////////////////////////////////////////////////////////////////////////////////////////////
+Section 8: NPM: the Node Package Manager
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+- Package - code. Managed and maintained with a package managment system
+
+- Package managment system - software that automates installing and updating packages. Deals with what version you have or need, and manages dependencies.
+
+- Dependencies - code that another set of code depends on to function. If you use that code in your app, it's a dependency. Your app depends on it
+
+- Versioning: 'major'.'minor'.'patch'
+2.5.7
+
+- npm registry - repository of packages
+- npm program
+
+- create js project
+ npm init
+
+ - install package 'moment' and save a refference to the package in dependancy
+ npm install moment --save
+ --------
+    "dependencies": {
+    "moment": "~2.29.4"
+  }
+
+ - automaticaly update up ONLY to '_'.'minor'.'patch'
+   "dependencies": {
+    "moment": "^2.29.4"
+  }
+
+ - automaticaly update up ONLY to '_'.'_'.'patch'
+   "dependencies": {
+    "moment": "~2.29.4"
+  }
+
+- Install all dependancy in 'package.json'
+npm install
+
+- Install dependancy only for development
+npm install jasmine-node --save-dev
+---------
+  "devDependencies": {
+    "jasmine-node": "^3.0.0"
+  }
+
+- Globally install package, not for only one particular project:
+npm install -g nodemon
+
+- If you need change some code and see the updates without restarting 'node app.js' just use nodemon:
+nodemon app.js
+
+- Update all modules regarding '^' and '~' rules:
+npm update
