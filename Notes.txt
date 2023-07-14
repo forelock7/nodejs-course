@@ -442,3 +442,5 @@ Section 9: Express
 - Static - not dynemic. In other words, not processed by code in any way. For example HTML, CSS and image filesare 'static' files
 
 - Templates engine: EJS - dynemic generate html on fly
+
+- REST - an architechtual style for building APIs. representational State Transfer. We decided that HTTP verbs and URLs mean something
