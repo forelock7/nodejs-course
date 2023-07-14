@@ -473,3 +473,11 @@ Section 11: The MEAN stack
 - Stak - the combination of all technologies used to build a piece of software. Your database system, your server side code, your client side code and everything else
 
 - AngularJS - framework for managing code and UI in the browser, removing a lot of manual work
+
+- Browsers mostly are written in C++. Browsers also have JS engines embedded
+
+- DOM - the structure browsers use to store and manage web pages. 'Document Object Model'. Browsers give the JS engine the ability to manipulate the DOM.
+
+- Browser get HTML and build DOM. JS Engine execute JS code, for instance manipulate with DOM.
+
+- Full Stack Developer - who knows all the pieces os a software stack (Client, Server side, DB)
