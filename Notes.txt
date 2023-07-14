@@ -433,6 +433,8 @@ npm update
 Section 9: Express
 ////////////////////////////////////////////////////////////////////////////////////////////////
 
+- Express - JS framework that makes things like routing, writing APIs and working with HTTP easier
+
 - Environment variables - global vars specific to the env (server) our code is living in. Different servers can have different variable settings, and we can access thos in code
 
 - HTTP Method - specifies the type of action the request wishes to make. GET, POST? DELETE? and others. Also called verbs
@@ -461,3 +463,13 @@ Section 10: Javascript, JSON, and Databases
 - mongolab.com/ MongoDB atlas - help to create cloud instance of MongoDB
 
 - mongoose npm package to work with MongoDB 
+
+////////////////////////////////////////////////////////////////////////////////////////////////
+Section 11: The MEAN stack
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+- MEAN stack - MongoDB, Express, AngularJS, NodeJS
+
+- Stak - the combination of all technologies used to build a piece of software. Your database system, your server side code, your client side code and everything else
+
+- AngularJS - framework for managing code and UI in the browser, removing a lot of manual work
