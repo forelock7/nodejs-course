@@ -444,3 +444,10 @@ Section 9: Express
 - Templates engine: EJS - dynemic generate html on fly
 
 - REST - an architechtual style for building APIs. representational State Transfer. We decided that HTTP verbs and URLs mean something
+
+- 'Express generator' lib helps us to create structire for express code project
+npm install -g express-generator
+express myapp
+npm install
+
+- Look at Router instances in code.
