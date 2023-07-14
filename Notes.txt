@@ -456,4 +456,8 @@ npm install
 Section 10: Javascript, JSON, and Databases
 ////////////////////////////////////////////////////////////////////////////////////////////////
 
-- 
+- NoSQL - a variety of technologyies that are alternatives to tables and SQL. One of those is a document(object) database. MongoDB is one of those.
+
+- mongolab.com/ MongoDB atlas - help to create cloud instance of MongoDB
+
+- mongoose npm package to work with MongoDB 
