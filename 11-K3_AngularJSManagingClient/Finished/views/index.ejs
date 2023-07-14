@@ -13,6 +13,9 @@
         {{ person.name }}
       </li>
     </ul>
+    <script>
+      var clientPeople = <%- JSON.stringify(serverPeople) %>;
+    </script>
     <script src="/assets/js/app.js"></script>
   </body>
 </html>
