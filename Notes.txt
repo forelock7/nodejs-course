@@ -481,3 +481,11 @@ Section 11: The MEAN stack
 - Browser get HTML and build DOM. JS Engine execute JS code, for instance manipulate with DOM.
 
 - Full Stack Developer - who knows all the pieces os a software stack (Client, Server side, DB)
+
+////////////////////////////////////////////////////////////////////////////////////////////////
+Section 12: Let's Build an App! (in record time)
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+- Seed - adding initial data to a database
+
+- Transpile - convert one programming language into another. The programing language you write in might not realy ever run (for instance TypeScript)
